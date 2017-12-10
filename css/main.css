@@ -1,0 +1,291 @@
+@font-face {
+    font-family: "gora_free";
+    src: url("../fonts/gora-free-webfont.woff2") format("woff2"), url("../fonts/gora-free-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.container_small {
+    margin: 0 auto;
+    width: 740px;
+}
+
+.header {
+    height: 75px;
+    background: #131415;
+}
+
+.logo,
+.navigation,
+.contacts,
+.navigation__item {
+    display: inline-block;
+}
+
+.logo {
+    font-family: "gora_free", Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f89513;
+    text-decoration: none;
+}
+
+.navigation__link {
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation__item {
+    list-style-type: none;
+}
+
+.contacts__phone {
+    font-weight: bold;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacts__desc {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #f89513;
+}
+
+.banner {
+    height: 624px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 1060px;
+    text-align: center;
+}
+
+.banner__img {
+    margin-top: 79px;
+}
+
+.features {
+    height: 570px;
+    background-color: #131415;
+    color: #ffffff;
+}
+
+.features__title {
+    font-weight: bold;
+    font-size: 49px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 66px;
+    margin-top: 0;
+    margin-bottom: 62px;
+}
+
+.features__item {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.features__item-title {
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.features__circle {
+    width: 72px;
+    height: 72px;
+    background: #f89513;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.features__image {
+    width: auto;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.features__item-txt {
+    font-size: 18px;
+}
+
+.features__item-list {
+    text-align: left;
+    list-style-type: disc;
+}
+
+.features__list {
+    text-align: center;
+}
+
+.all-news {
+    height: 955px;
+    background-color: #ffffff;
+    color: #221f1f;
+}
+
+.news {
+    width: 880px;
+    display: inline-block;
+}
+
+.news__title {
+    font-weight: bold;
+    font-size: 49px;
+    text-align: center;
+    padding-top: 66px;
+    margin-top: 0;
+}
+
+.news__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news__thumb {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.news__thumb-img {
+    display: block;
+}
+
+.news__text {
+    display: inline-block;
+    width: 700px;
+}
+
+.news__data {
+    font-size: 13px;
+}
+
+.news__content {
+    font-size: 18px;
+}
+
+.news__name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.news__item {
+    width: 900px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.news__item:last-child {
+    border-bottom: none;
+}
+
+.top-news {
+    width: 160px;
+    display: inline-block;
+}
+
+.top-news__header {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.top-news__header_light {
+    color: #6f6e6e;
+}
+
+.top-news__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news__sheets {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.news__sheets-list {
+    font-weight: bold;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.news__sheets-link {
+    text-decoration: none;
+    color: #221f1f;
+}
+
+.news__sheets-headline {
+    font-weight: 300;
+    color: #656464;
+    display: inline-block;
+}
+
+.news__sheets-item {
+    display: inline-block;
+}
+
+.footer {
+    height: 75px;
+    background-color: #131415;
+}
+
+.footer__copy {
+    font-size: 14px;
+    color: #ffffff;
+    width: 240px;
+    display: inline-block;
+}
+
+.footer__copy-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer__logo {
+    display: inline-block;
+}
+
+.footer__social {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer__social-list {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.footer__social-item {
+    display: inline-block;
+}
