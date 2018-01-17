@@ -1,0 +1,39 @@
+.top-news {
+    width: 160px;
+    display: inline-block;
+    margin-left: 40px;
+    float: left;
+}
+
+.top-news__header {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.top-news__header-title {
+    margin: 0;
+}
+
+.top-news__header-light {
+    color: #6f6e6e;
+    margin-bottom: 20px;
+}
+
+.top-news__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-news__item {
+    margin-bottom: 20px;
+}
+
+.top-news__link {
+    display: block;
+    margin: 0 auto;
+}
+
+.top-news__img {}

@@ -1,0 +1,119 @@
+.services-block {
+    background-color: #ffffff;
+    color: #221f1f;
+    margin-bottom: 17px;
+}
+
+.section-title_services {
+    color: #221f1f;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.container_middle {
+    width: 880px;
+}
+
+.services-content {
+    padding-top: 38px;
+    padding-bottom: 33px;
+}
+
+.services__list {
+    margin-left: -30px;
+}
+
+.services__item {
+    display: inline-block;
+    width: 33%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 45px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.services__image {
+    width: 100%;
+    height: 154px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.services__image::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.services__image-text {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.services__title {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.services__text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.42em;
+    letter-spacing: -0.7px;
+}
+
+.services-partners {}
+
+.section-title_partners {
+    color: #221f1f;
+    text-align: left;
+    margin-bottom: 74px;
+}
+
+.partners__list {
+    margin-left: -25px;
+    font-size: 0;
+}
+
+.partners__item {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 52px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.partners__link {
+    display: block;
+}
+
+.partners__logo {
+    filter: grayscale(100%) opacity(60%);
+}
+
+.partners__logo:hover {
+    filter: none;
+}

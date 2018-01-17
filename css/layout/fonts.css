@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "gora_free";
+    src: url("../../fonts/gora-free-webfont.woff2") format("woff2"), url("../../fonts/gora-free-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700|Roboto:300i,400,700&subset=cyrillic");

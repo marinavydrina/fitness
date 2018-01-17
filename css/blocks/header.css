@@ -1,0 +1,196 @@
+.header {
+    background: #131415;
+    vertical-align: middle;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 33.3%;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo__img {
+    font-family: "gora_free", Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f89513;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.header__navigation {
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation__list {
+    margin: 0 auto;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.navigation__link {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation__link:hover {
+    color: #f89513;
+}
+
+.navigation__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 22px;
+}
+
+.navigation__item:last-of-type {
+    margin-right: 0;
+}
+
+.navigation__text {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.navigation__icon {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background-image: url(../../img/sprite.png);
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.navigation__icon_main {
+    background-position: 4px -39px;
+}
+
+.navigation__icon_reviews {
+    background-position: -34px -40px;
+}
+
+.navigation__icon_services {
+    background-position: -76px -38px;
+}
+
+.navigation__link_main:hover .navigation__icon_main {
+    background-position: 4px -79px;
+}
+
+.navigation__link_reviews:hover .navigation__icon_reviews {
+    background-position: -34px -80px;
+}
+
+.navigation__link_services:hover .navigation__icon_services {
+    background-position: -77px -78px;
+}
+
+.header__contacts {
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.contacts {
+    display: inline-block;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-weight: bold;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 4px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.contacts__desc {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    color: rgba(248, 149, 19, 0.7);
+    text-align: right;
+    text-decoration: underline;
+}
+
+.contacts__desc:hover {
+    color: #b9b9b9;
+}
+
+.contacts__drop {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.contacts__drop:hover .contacts__dropdown {
+    right: 0;
+}
+
+.contacts__dropdown {
+    display: block;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    position: absolute;
+    top: 230%;
+    right: -9999px;
+}
+
+.contacts__dropdown::before {
+    content: "";
+    display: block;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    bottom: 100%;
+    right: 5px;
+}
+
+.contacts__dropdown::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+
+.contacts__dropdown-shedule {
+    display: block;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    color: #221f1f;
+}
+
+.contacts__dropdown-shedule__weekday {
+    font-weight: bold;
+    color: #f89513;
+}

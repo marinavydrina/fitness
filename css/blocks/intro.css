@@ -1,0 +1,97 @@
+.wrapper-intro {
+    background-image: url(../../img/fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.wrapper-intro::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.intro-wrap {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro {
+    display: inline-block;
+    animation-name: bounceIn;
+    animation-duration: 2s;
+}
+
+.intro__logo {
+    margin-bottom: 40px;
+}
+
+.intro__logo_img {}
+
+.intro__link {
+    display: block;
+}
+
+.intro__button {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #f0f0f0;
+    background-color: #f89513;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    outline: none;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+}
+
+.intro__button:hover {
+    background-color: #1c1f1d;
+    cursor: pointer;
+}
